@@ -6,7 +6,6 @@ function setup() {
   function draw() { 
     background(245, 155, 66);
     
-    text(frameCount, 262, 315);
-    textSize(72)
-    
+    var fr = frameRate();
+    print(fr);
   }
