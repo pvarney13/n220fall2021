@@ -8,4 +8,6 @@ function setup() {
     
     var fr = frameRate();
     print(fr);
+    text(frameCount,300,300)
+    textSize(72)
   }
