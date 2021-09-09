@@ -1,27 +1,15 @@
-
-let x = 800
-let y = 600
-let xspeed = 5
-let yspeed = 5
-
-let r = 25
-
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(400, 300);
 
 }
 
 function draw() {
-  background(0);
-  ellipse(x, y, r*2, r*2);
-  x += xspeed
-  y += yspeed
-  if (x > width - r || x < r) {
-    xspeed = -xspeed;
-  }
-  if (y > height - r || y < r) {
-    yspeed = -yspeed;
-  }
+  circle(mouseX, mouseY,15,15)
 
-
+  if (mouseX<200) {
+    fill(0,0,255)
+  }
+  if (mouseX>200){
+    fill(255,0,0)
+  }
 }

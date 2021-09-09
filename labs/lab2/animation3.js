@@ -1,4 +1,4 @@
-var radius = 40;
+var radius = 100;
 var x = -radius;
 var speed = 5;
 
@@ -13,5 +13,5 @@ function draw() {
   if (x > width+radius) { 
     x = -radius;  
   }
-  arc(x, 60, radius, radius, 0.52, 5.76);
+  ellipse(x,300,radius,radius);
 }
