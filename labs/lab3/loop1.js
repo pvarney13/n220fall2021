@@ -11,5 +11,4 @@ function draw(){
         circle(200, 200, y * 30)
     
     }
-    
 }
