@@ -10,7 +10,7 @@ function draw() {
   fill(0)
   noStroke()
 
-  for (let i = 0; i < 25; i++) {
+  for (let i = 1; i < 25; i++) {
     let x = (i * 50) + 50
     ellipse(x + 25, y + 25, 50, 50)
     fill(0)
