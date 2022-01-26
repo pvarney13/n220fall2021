@@ -1,0 +1,294 @@
+.nav {
+    font-family: Helvetica ;
+    font-size: large;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 28px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a9fff2;
+}
+
+a:active {
+    color: orange;
+}
+a:link {
+    color: #343659;
+}
+a:hover {
+    color: indianred;
+}
+a:visited {
+    color: teal;
+}
+
+#banner {
+    background-color: #ffd79e;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+#banner .shoppingcart {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+#banner .shoppingcart > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    width: 90px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+#banner .banner-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#maintitle {
+    color: mintcream;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#subtitle {
+    color: #d97452;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#mainbody {
+    padding: 10px;
+    background-color: white;
+    font-family: "Times New Roman" ;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#store {
+    height: 500px;
+    border: 5px ridge #53f5f7;
+}
+
+#footer {
+    font-size: 80%;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: lightsalmon;
+    font-family: "Helvetica Neue";
+    color: #2e6da4;
+    margin: auto;
+}
+
+/* OUR RECORDS */
+.records {
+    display: flex;
+    flex-direction: column;
+}
+.records div {
+    padding: 3px 5px;
+}
+
+.records .row {
+    display: flex;
+}
+
+.records .row:nth-child(even) {
+    background-color: white;
+}
+
+.records .header {
+    background-color: lightsalmon;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.records .col1 {
+    width: 100%;
+}
+
+.records .col2 {
+    width: 100%;
+}
+
+.records .col3 {
+    width: 100%;
+}
+.records .col4 {
+
+}
+
+/* details for records */
+.recorddetails {
+    display: flex;
+}
+
+.recorddetails img {
+    width: 150px;
+}
+.recorddetails .cover {
+    min-width: 200px;
+}
+
+.recorddetails .label div {
+    width: 100px;
+    font-weight: 600;
+    height: 32px;
+}
+
+.recorddetails .content div {
+    min-height: 32px;
+    width: 500px;
+}
+
+div.order-summary {
+    border: 1px solid #ccc;
+    width: 260px;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: -30px;
+    padding: 10px;
+    overflow: auto;
+}
+
+div.order-summary div{
+    padding: 3px;
+}
+
+div.order-summary span {
+    float: right;
+    margin-right: 5px
+}
+#addtocart {
+    width: 200px;
+    float: right;
+
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+}
+
+#tracklist h3 {
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+
+.recordcover {
+    float: left;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weektext {
+    color: #d97452;
+}
+
+.booklist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.booklist div {
+    padding: 3px 5px;
+}
+
+.booklist .row {
+    display: flex;
+}
+
+.booklist .row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.booklist .header {
+    background-color: #e4f1fe;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.booklist .col1 {
+    width: 300px;
+}
+
+.booklist .col2 {
+    width: 300px;
+}
+
+.booklist .col3 {
+    width: 200px;
+}
+
+.booklist .col4 {
+
+}
+
+/* tracklist */
+.tracklist  .col1 {
+   align-content: center;
+}
+
+
+.pagenumbers {
+    align-content: center;
+}
